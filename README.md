@@ -1,5 +1,5 @@
-#Address Finder in Map
-####Uses google maps to find supplied address and show it in a web browser
+# Address Finder in Map
+#### Uses google maps to find supplied address and show it in a web browser
 
 * Uses python3, so sorry python2 users!
 * Python package included
@@ -10,7 +10,7 @@
   dept. are welcome!
 
 
-#####Usage
+#### Usage
 
 * You can just copy the address to your clipboard and use the clipboard module
 * Or you can pass the address as a command line argument while running the
@@ -18,7 +18,6 @@
 
   ```bash
   cd source_find_map
-  python3 find_in_map.py <address>
+  python find_in_map.py <address>
   # you can use punctuation marks in the address, it's safe
-  # and won't blow up your computer or this program
   ```
